@@ -1,0 +1,9 @@
+CDs	118
+Children's Clothing	119
+Computers	117
+DVDs	117
+Men's Clothing	115
+Music	119
+Toys	117
+Video Games	115
+Women's Clothing	99
