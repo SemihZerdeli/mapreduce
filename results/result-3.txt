@@ -1,0 +1,18 @@
+Baby	103
+Books	110
+CDs	118
+Cameras	114
+Children's Clothing	119
+Computers	117
+Consumer Electronics	102
+Crafts	109
+DVDs	117
+Garden	113
+Health and Beauty	101
+Men's Clothing	115
+Music	119
+Pet Supplies	108
+Sporting Goods	104
+Toys	117
+Video Games	115
+Women's Clothing	99

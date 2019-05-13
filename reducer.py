@@ -25,7 +25,7 @@ sum_of_values = 0
 # Previous key is initialized with None, we just started
 previous_key = None
 
-# For each new line in the standard input 
+# For each new line in the standard input
 for line in sys.stdin:
 
     # split the line at the tabulator ("\t")
@@ -36,7 +36,7 @@ for line in sys.stdin:
     # Store the 2 elements of this line in seperate variables
     key, value = data
 
-    # Do we have a previous_key (previous_key != None) and 
+    # Do we have a previous_key (previous_key != None) and
     # is the new key different than the previous key?
     # This means the line starts with a new key (key changes e.g. from "Visa" to "Cash")
     # Remember that our keys are sorted
@@ -53,8 +53,8 @@ for line in sys.stdin:
     # a += b is the same as a = a + b
     # the float function transforms the value
     # to a float data type (like decimal)
-    sum_of_values += float(value)
-    # the previous key for the next iteration is the current key of the this iteration 
+    sum_of_values += 1
+    # the previous key for the next iteration is the current key of the this iteration
     previous_key = key
 
 # write the last result to stdout
