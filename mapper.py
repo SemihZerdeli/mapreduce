@@ -34,16 +34,18 @@ for line in sys.stdin:
     # the result is a tuple with 6 elements
     data = line.strip().split("\t")
 
-    if len(data) < 6 or len(data) > 6:
+    if len(data) is not 6:
         raise Exception('Data must be a tuple out of 6 elements exactly!')
     else:
         # store the 6 elements of the tuple in seperate variables
         date, time, item, category, sales, payment = data
 
-    if category in categories:
+    if (category in ["Computers", "Cameras", "Video Games"] and category in categories):
         categories[category] = float(categories[category]) + float(sales)
-    else:
+    elif (category in ["Computers", "Cameras", "Video Games"]):
         categories[category] = 1
+    else:
+        continue
 
 
 # Write the key-value combination to standard output (stdout)
